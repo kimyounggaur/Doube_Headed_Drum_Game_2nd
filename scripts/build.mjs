@@ -58,11 +58,11 @@ await writeFile(
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#102538" />
     <title>조선의 북소리: 전장의 지휘자</title>
-    <link rel="stylesheet" href="/assets/main.css" />
+    <link rel="stylesheet" href="./assets/main.css" />
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/assets/main.js"></script>
+    <script type="module" src="./assets/main.js"></script>
   </body>
 </html>
 `,
