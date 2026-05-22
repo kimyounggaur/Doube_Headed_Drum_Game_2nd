@@ -1,0 +1,33 @@
+:root {
+  color-scheme: dark;
+  --ink: #1f1b16;
+  --paper: #ead9b8;
+  --paper-soft: #f6ebd0;
+  --wood: #735331;
+  --wood-dark: #3c2a1d;
+  --navy: #102538;
+  --navy-deep: #0a1724;
+  --teal: #2f9caa;
+  --ally: #2f8ee8;
+  --enemy: #d84b42;
+  --gold: #d9a63a;
+  --muted: #a99b82;
+  --line: rgba(255, 239, 201, 0.28);
+  --shadow: 0 18px 48px rgba(0, 0, 0, 0.26);
+  --radius: 8px;
+  font-family:
+    Pretendard,
+    "Noto Sans KR",
+    "Apple SD Gothic Neo",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+}
+
+html[data-reduced-motion="true"] *,
+html[data-reduced-motion="true"] *::before,
+html[data-reduced-motion="true"] *::after {
+  animation-duration: 0.001ms !important;
+  transition-duration: 0.001ms !important;
+}

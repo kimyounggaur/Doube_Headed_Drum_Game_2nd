@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.vite/
+*.log
+*.err.log
+vite-build-full.log
+01 Source/
+*.tsbuildinfo
