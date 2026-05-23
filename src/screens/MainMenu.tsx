@@ -33,6 +33,7 @@ export function MainMenu({ progress, onNavigate }: MainMenuProps) {
           </div>
         </div>
         <div className="hero-emblem" aria-hidden="true">
+          <img src={assets.panokseon.url} alt="" />
           <div className="drum-mark">궁</div>
           <div className="drum-mark right">따</div>
           <div className="flag-mark">令</div>
