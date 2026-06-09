@@ -6,3 +6,5 @@ dist/
 vite-build-full.log
 01 Source/
 *.tsbuildinfo
+
+.vercel
